@@ -1,3 +1,6 @@
+document.getElementById("lubba").addEventListener("click", function() {
+    this.childNodes[2].play();
+});
 const buttonComix = document.getElementById('comix');
 const body = document.querySelector("body");
 let count = 0;
@@ -24,28 +27,28 @@ buttonComix.addEventListener('click',() =>{
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[1].png",
-                style: "position:fixed;" + "top:40%;" + "left:50%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:50%;" + "z-index:11;" + "width:50%;"
             }
         });
         const secondComic = createElement({
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[2].png",
-                style: "position:fixed;" + "top:40%;" + "left:25%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:0%;" + "z-index:11;"+ "width:50%;"
             }
         });
         const thirdComic = createElement({
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[3].png",
-                style: "position:fixed;" + "top:40%;" + "left:50%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:50%;" + "z-index:11;"+ "width:50%;"
             }
         });
         const FifthComic = createElement({
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[4].png",
-                style: "position:fixed;" + "top:40%;" + "left:25%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:0%;" + "z-index:11;"+ "width:50%;"
             }
         });
 
@@ -72,14 +75,14 @@ buttonComix.addEventListener('click',() =>{
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[5].png",
-                style: "position:fixed;" + "top:40%;" + "left:25%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:0%;" + "z-index:11;" + "width:50%;"
             }
         });
         const secondComic = createElement({
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[6].png",
-                style: "position:fixed;" + "top:40%;" + "left:50%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:50%;" + "z-index:11;" + "width:50%;"
             }
         });
         body.append(startComic);
@@ -97,28 +100,28 @@ buttonComix.addEventListener('click',() =>{
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[7].png",
-                style: "position:fixed;" + "top:30%;" + "left:35%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:35%;" + "z-index:11;"+"width:30%;"
             }
         });
         const secondComic = createElement({
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[8].png",
-                style: "position:fixed;" + "top:40%;" + "left:50%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:50%;" + "z-index:11;" + "width:50%;"
             }
         });
         const thirdComic = createElement({
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[9].png",
-                style: "position:fixed;" + "top:40%;" + "left:25%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:0%;" + "z-index:11;" + "width:50%;"
             }
         });
         const FifthComic = createElement({
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[10].png",
-                style: "position:fixed;" + "top:40%;" + "left:50%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:50%;" + "z-index:11;" + "width:50%;"
             }
         });
 
@@ -145,7 +148,7 @@ buttonComix.addEventListener('click',() =>{
             tagName: "img",
             attributes: {
                 src: "./assets/RickComix/rickComix[11].png",
-                style: "position:fixed;" + "top:30%;" + "left:35%;" + "z-index:11;"
+                style: "position:fixed;" + "top:30%;" + "left:35%;" + "z-index:11;" + "width:50%;"
             }
         })
         body.append(startComic);
