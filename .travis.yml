@@ -1,4 +1,5 @@
 language: node_js
+os: windows
 node_js:
   - 11.13.0
 script:
@@ -9,7 +10,7 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: "hudzenkoillya.com-staging"
+    bucket: hudzenkoillya.com-staging
     region: eu-central-1
     acl: public_read
     on:
@@ -18,7 +19,7 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: "hudzenkoillya.com-production"
+    bucket: hudzenkoillya.com-production
     region: eu-central-1
     acl: public_read
     on:
