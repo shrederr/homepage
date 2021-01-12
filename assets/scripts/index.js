@@ -153,7 +153,9 @@ buttonComix.addEventListener('click',() =>{
         })
         body.append(startComic);
         setTimeout(() => {
-            window.close();
+            startComic.remove();
+            Overlay.remove();
+            buttonComix.remove();
         }, 5000);
         }
     count++;
